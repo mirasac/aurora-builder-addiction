@@ -2,10 +2,10 @@
 <index>
     <info>
         <update version="0.0.2">
-            <file name="valeriana.index" url="https://raw.githubusercontent.com/Mike-Oscar/aurora-builder-addiction/valeriana.index"/>
+            <file name="valeriana.index" url="https://raw.githubusercontent.com/Mike-Oscar/aurora-builder-addiction/valeriana.index" />
         </update>
     </info>
     <files>
-        <file name="items.xml" url="https://raw.githubusercontent.com/Mike-Oscar/aurora-builder-addiction/master/valeriana/items.xml"/>
+        <file name="items.xml" url="https://raw.githubusercontent.com/Mike-Oscar/aurora-builder-addiction/master/valeriana/items.xml" />
     </files>
 </index>
