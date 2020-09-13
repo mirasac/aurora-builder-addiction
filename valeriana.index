@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
     <info>
-        <update version="0.0.3">
+        <update version="0.1.0">
             <file name="valeriana.index" url="https://raw.githubusercontent.com/Mike-Oscar/aurora-builder-addiction/master/valeriana.index"/>
         </update>
     </info>
     <files>
-        <file name="items.xml" url="https://raw.githubusercontent.com/Mike-Oscar/aurora-builder-addiction/master/valeriana/items.xml"/>
+        <obsolete name="items.xml" url="https://raw.githubusercontent.com/Mike-Oscar/aurora-builder-addiction/master/valeriana/items.xml"/>
+        <file name="items-weapons.xml" url="https://raw.githubusercontent.com/Mike-Oscar/aurora-builder-addiction/master/valeriana/items-weapons.xml"/>
     </files>
 </index>
