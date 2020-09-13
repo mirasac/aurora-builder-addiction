@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Weapons from Valeriana</name>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="items-weapons.xml" url="https://raw.githubusercontent.com/Mike-Oscar/aurora-builder-addiction/master/valeriana/items-weapons.xml" />
         </update>
     </info>
@@ -18,7 +18,7 @@
             <set name="weight" lb="1">1 lb.</set>
             <set name="slot">onehand</set>
 			<set name="range">20/60</set>
-            <set name="damage" type="piercing">1d6+1</set>
+            <set name="damage" type="piercing">1d6</set>
             <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
         </setters>
     </element>
