@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <update version="0.0.1">
+            <file name="source.xml" url="https://raw.githubusercontent.com/Mike-Oscar/aurora-builder-addiction/master/valeriana/source.xml"/>
+        </update>
+    </info>
+    <element name="Valeriana" type="Source" source="Core" id="ID_MC_SOURCE_VALERIANA">
+        <description>
+            <![CDATA[<p><strong>Material from the campaign Valeriana.</strong></p><p>This source contains the material created for the campaign Valeriana that is not provided from other sources.</p>]]>
+        </description>
+        <setters>
+            <set name="abbreviation">VOFF</set>
+            <set name="url"></set>
+            <set name="image"></set>
+            <set name="errata"></set>
+            <set name="author" abbreviation="MC" url="">Marco Casari</set>
+            <set name="official">false</set>
+            <set name="core">false</set>
+            <set name="homebrew">true</set>
+            <set name="release"></set>
+        </setters>
+    </element>
+</elements>

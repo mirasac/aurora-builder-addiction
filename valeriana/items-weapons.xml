@@ -2,15 +2,15 @@
 <elements>
     <info>
         <name>Weapons from Valeriana</name>
-        <update version="0.0.7">
+        <update version="0.0.8">
             <file name="items-weapons.xml" url="https://raw.githubusercontent.com/Mike-Oscar/aurora-builder-addiction/master/valeriana/items-weapons.xml"/>
         </update>
     </info>
     
     <!--Simple Melee Weapons-->
-    <element name="Elven Dagger of Cold" type="Magic Item" source="Valeriana" id="ID_MC_VALERIANA_MAGIC_ITEM_ELVEN_DAGGER_OF_COLD">
+    <element name="Elven Dagger of Cold" type="Magic Item" source="Valeriana" id="ID_MC_VOFF_MAGIC_ITEM_ELVEN_DAGGER_OF_COLD">
         <description>
-            <p> The elven smiths of the Diledian reign create these magic daggers for the army. The elven techniques of forging and the magic enhancement grant a +2 bonus to attack and damage rolls made with this magic dagger and the target takes cold damage.</p>
+            <p>The elven smiths of the Diledian reign create these magic daggers for the army. The elven techniques of forging and the magic enhancement grant a +2 bonus to attack and damage rolls made with this magic dagger and the target takes cold damage.</p>
         </description>
         <setters>
             <set name="keywords">dagger</set>
