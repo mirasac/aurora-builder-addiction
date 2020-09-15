@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
     <info>
-        <name>Weapons from Valeriana</name>
-        <update version="0.0.3">
+        <name>Items from Valeriana</name>
+        <update version="0.1.0">
             <file name="items.xml" url="https://raw.githubusercontent.com/Mike-Oscar/aurora-builder-addiction/master/valeriana/items.xml"/>
         </update>
     </info>
-    
+
+    <!--Poisons-->
+    <element name="Persistent Poison" type="Item" source="Valeriana" id="ID_MC_VALERIANA_ITEM_PERSISTENT_POISON">
+        <description>
+            <p>A mild poison with a long-lasting effect. A creature subjected to this poison takes 1d4 poison damage every hour and the poisoning lasts for 24 hours.</p>
+        </description>
+        <setters>
+            <set name="keywords">poison</set>
+            <set name="category">Poison</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0.5">½ lb.</set>
+            <set name="stackable">true</set>
+        </setters>
+    </element>
 </elements>
