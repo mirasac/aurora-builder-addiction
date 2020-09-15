@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Weapons from Valeriana</name>
-        <update version="0.0.4">
+        <update version="0.0.5">
             <file name="items-weapons.xml" url="https://raw.githubusercontent.com/Mike-Oscar/aurora-builder-addiction/master/valeriana/items-weapons.xml"/>
         </update>
     </info>
@@ -18,7 +18,7 @@
             <set name="cost" currency="gp">35</set>
             <set name="type" addition="dagger">Weapon</set>
             <set name="enhancement">2</set>
-            <!--<set name="weapon">Dagger</set>-->
+            <set name="weapon">Dagger</set>
         </setters>
     </element>
 </elements>
