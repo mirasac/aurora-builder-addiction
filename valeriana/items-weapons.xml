@@ -2,26 +2,23 @@
 <elements>
     <info>
         <name>Weapons from Valeriana</name>
-        <update version="0.0.3">
+        <update version="0.0.4">
             <file name="items-weapons.xml" url="https://raw.githubusercontent.com/Mike-Oscar/aurora-builder-addiction/master/valeriana/items-weapons.xml"/>
         </update>
     </info>
     
     <!--simple weapons-->
-    <element name="Elven dagger" type="Weapon" source="Valeriana" id="ID_MC_VALERIANA_WEAPON_ELVEN_DAGGER">
-        <supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
-	    <description>
-            <p>A sharp dagger forged by the elven smiths of the Diledian reign. Due to the elven techniques of forging, this dagger is a magic weapon with a +1 bonus to attack and damage rolls.</p>
+    <element name="Elven Dagger of Cold" type="Magic Item" source="Valeriana" id="ID_MC_VALERIANA_MAGIC_ITEM_ELVEN_DAGGER_OF_COLD">
+        <description>
+            <p> The elven smiths of the Diledian reign create these magic daggers for the army. The elven techniques of forging and the magic enhancement grant a +2 bonus to attack and damage rolls made with this magic dagger and the target takes cold damage.</p>
         </description>
         <setters>
-            <set name="category">Weapons</set>
-            <set name="cost" currency="gp">20</set>
-            <set name="weight" lb="1">1 lb.</set>
-            <set name="slot">onehand</set>
-			<set name="range">20/60</set>
-            <set name="damage" type="piercing">1d4</set>
-            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
-            <set name="enhancement">1</set>
+            <set name="keywords">dagger</set>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="gp">35</set>
+            <set name="type" addition="dagger">Weapon</set>
+            <set name="enhancement">2</set>
+            <!--<set name="weapon">Dagger</set>-->
         </setters>
     </element>
 </elements>
