@@ -2,15 +2,15 @@
 <elements>
     <info>
         <name>Weapons from Valeriana</name>
-        <update version="0.0.8">
+        <update version="0.0.9">
             <file name="items-weapons.xml" url="https://raw.githubusercontent.com/Mike-Oscar/aurora-builder-addiction/master/valeriana/items-weapons.xml"/>
         </update>
     </info>
     
     <!--Simple Melee Weapons-->
-    <element name="Elven Dagger of Cold" type="Magic Item" source="Valeriana" id="ID_MC_VOFF_MAGIC_ITEM_ELVEN_DAGGER_OF_COLD">
+    <!-- <element name="Elven Dagger of Cold" type="Magic Item" source="Valeriana" id="ID_MC_VOFF_MAGIC_ITEM_ELVEN_DAGGER_OF_COLD">
         <description>
-            <p>The elven smiths of the Diledian reign create these magic daggers for the army. The elven techniques of forging and the magic enhancement grant a +2 bonus to attack and damage rolls made with this magic dagger and the target takes cold damage.</p>
+            <p>The elven smiths of the Dilhadeian reign create these magic daggers for the royal army. The elven techniques of forging and the magic enhancement grant a +2 bonus to attack and damage rolls made with this magic dagger and the target takes cold damage.</p>
         </description>
         <setters>
             <set name="keywords">dagger</set>
@@ -19,6 +19,22 @@
             <set name="type" addition="dagger">Weapon</set>
             <set name="enhancement">2</set>
             <set name="weapon">Dagger</set>
+        </setters>
+    </element> -->
+    <element name="Elven Dagger of Cold" type="Weapon" source="Valeriana" id="ID_MC_VOFF_WEAPON_ELVEN_DAGGER_OF_COLD">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+        <description>
+            <p>The elven smiths of the Dilhadeian reign create these magic daggers for the royal army. Due to the elven techniques of forging and the magic enhancement, the target takes 1d6+2 cold damage.</p>
+        </description>
+        <setters>
+            <set name="keywords">dagger</set>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="gp">35</set>
+            <set name="weight" lb="1">1 lb.</set>
+            <set name="slot">onehand</set>
+            <set name="range">20/60</set>
+            <set name="damage" type="cold">1d6+2</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS</set>
         </setters>
     </element>
 </elements>
