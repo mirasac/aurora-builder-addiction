@@ -2,10 +2,30 @@
 <elements>
     <info>
         <name>Items from Valeriana</name>
-        <update version="0.1.2">
+        <update version="0.1.3">
             <file name="items.xml" url="https://raw.githubusercontent.com/Mike-Oscar/aurora-builder-addiction/master/valeriana/items.xml"/>
         </update>
     </info>
+
+    <!--Armors-->
+    <element name="Elven Enchantment of Stealth" type="Magic Item" source="Valeriana" id="ID_MC_VOFF_MAGIC_ITEM_ELVEN_ENCHANTMENT_OF_STEALTH">
+        <description>
+            <p>The enchanted armor is imbued of magic by the Dilhadean elven smiths through their chants. You gain a +1 bonus to AC while you wear this armor and advantage to stealth checks.</p>
+        </description>
+        <setters>
+            <set name="category">Magic Armor</set>
+            <set name="cost" currency="gp">20</set>
+            <set name="slot">body</set>
+            <set name="type" addition="light, medium, or heavy">Armor</set>
+            <set name="rarity"></set>
+            <set name="enhancement">1</set>
+            <set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
+            <set name="name-format">Elven {{parent}} of stealth</set>
+        </setters>
+        <rules>
+            <stat name="ac:armored:enhancement" value="1" bonus="enhancement"/>
+        </rules>
+    </element>
 
     <!--Poisons-->
     <element name="Persistent Poison" type="Item" source="Valeriana" id="ID_MC_VOFF_ITEM_PERSISTENT_POISON">
