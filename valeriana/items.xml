@@ -2,8 +2,8 @@
 <elements>
     <info>
         <name>Items from Valeriana</name>
-        <update version="0.1.3">
-            <file name="items.xml" url="https://raw.githubusercontent.com/Mike-Oscar/aurora-builder-addiction/master/valeriana/items.xml"/>
+        <update version="0.1.4">
+            <file name="items.xml" url="https://raw.githubusercontent.com/mirasac/aurora-builder-addiction/master/valeriana/items.xml"/>
         </update>
     </info>
 

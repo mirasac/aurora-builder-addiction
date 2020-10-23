@@ -4,13 +4,13 @@
         <name>Valeriana</name>
         <description>Material from the campaign Valeriana.</description>
         <author>Marco Casari</author>
-        <update version="0.2.1">
-            <file name="valeriana.index" url="https://raw.githubusercontent.com/Mike-Oscar/aurora-builder-addiction/master/valeriana.index"/>
+        <update version="0.2.2">
+            <file name="valeriana.index" url="https://raw.githubusercontent.com/mirasac/aurora-builder-addiction/master/valeriana.index"/>
         </update>
     </info>
     <files>
-        <file name="source.xml" url="https://raw.githubusercontent.com/Mike-Oscar/aurora-builder-addiction/master/valeriana/source.xml"/>
-        <file name="items.xml" url="https://raw.githubusercontent.com/Mike-Oscar/aurora-builder-addiction/master/valeriana/items.xml"/>
-        <file name="items-weapons.xml" url="https://raw.githubusercontent.com/Mike-Oscar/aurora-builder-addiction/master/valeriana/items-weapons.xml"/>
+        <file name="source.xml" url="https://raw.githubusercontent.com/mirasac/aurora-builder-addiction/master/valeriana/source.xml"/>
+        <file name="items.xml" url="https://raw.githubusercontent.com/mirasac/aurora-builder-addiction/master/valeriana/items.xml"/>
+        <file name="items-weapons.xml" url="https://raw.githubusercontent.com/mirasac/aurora-builder-addiction/master/valeriana/items-weapons.xml"/>
     </files>
 </index>

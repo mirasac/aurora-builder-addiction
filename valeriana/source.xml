@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
     <info>
-        <update version="0.0.1">
-            <file name="source.xml" url="https://raw.githubusercontent.com/Mike-Oscar/aurora-builder-addiction/master/valeriana/source.xml"/>
+        <update version="0.0.2">
+            <file name="source.xml" url="https://raw.githubusercontent.com/mirasac/aurora-builder-addiction/master/valeriana/source.xml"/>
         </update>
     </info>
     <element name="Valeriana" type="Source" source="Core" id="ID_MC_SOURCE_VALERIANA">
